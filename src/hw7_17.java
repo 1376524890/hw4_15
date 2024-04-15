@@ -8,8 +8,8 @@ public class hw7_17 {
                 break;
             }
             else{
+                ifDone = true;
                 for(int i = 0;i<info.length-1;i++){
-                    ifDone = true;
                     if(info[i][1]<info[i+1][1]){
                         info_temp[0][0]=info[i][0];
                         info_temp[0][1]=info[i][1];
