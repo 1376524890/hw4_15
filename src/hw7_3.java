@@ -6,7 +6,8 @@ public class hw7_3 {
         for(int i = 0; i < 101; i++) {
             num_array[i] = 0;
         }
-        for(int i = 101;;){
+        for(;;){
+            int i;
             i = scan.nextInt();
             if(i != 0){
                 num_array[i]++;
