@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.3完成">
-      <change afterPath="$PROJECT_DIR$/src/hw7_12.java" afterDir="false" />
+    <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.12完成">
+      <change afterPath="$PROJECT_DIR$/src/hw7_17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,7 @@
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/Java_learn/hw4_15/src/Main.java",
     "应用程序.hw7_12.executor": "Run",
+    "应用程序.hw7_17.executor": "Run",
     "应用程序.hw7_3.executor": "Run"
   }
 }]]></component>
@@ -78,12 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713162998627</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7.12完成">
+      <option name="closed" value="true" />
+      <created>1713163720430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713163720430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
     <MESSAGE value="7.3完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.3完成" />
+    <MESSAGE value="7.12完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.12完成" />
   </component>
 </project>
