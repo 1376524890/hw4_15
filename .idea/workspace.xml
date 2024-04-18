@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.17修改，7.18完成">
+      <change afterPath="$PROJECT_DIR$/src/hw7_22.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2f7nvEXlCHHydfKQdH4OJV713q5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,6 +44,7 @@
     "应用程序.hw7_12.executor": "Run",
     "应用程序.hw7_17.executor": "Run",
     "应用程序.hw7_18.executor": "Run",
+    "应用程序.hw7_22.executor": "Run",
     "应用程序.hw7_3.executor": "Run"
   }
 }]]></component>
@@ -111,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713166765235</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="7.17修改，7.18完成">
+      <option name="closed" value="true" />
+      <created>1713170598987</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713170598987</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
