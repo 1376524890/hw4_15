@@ -19,20 +19,6 @@ public class hw7_22 {
         for (int i_change = i-1,j_change = j-1; j_change >= 0&&i_change >= 0; j_change--,i_change--) {
             lable[i_change][j_change] = false;
         }
-
-//       System.out.println("测试");
-//        for(int m = 0;m<8;m++){
-//            for(int n = 0;n<8;n++){
-//                if(lable[m][n]){
-//                    System.out.print("Q ");
-//                }
-//                else {
-//                    System.out.print("X ");
-//                }
-//            }
-//            System.out.println();
-//        }
-//        System.out.println("测试结束");
     }
 
     public static void print(boolean[][] lable){
@@ -47,6 +33,23 @@ public class hw7_22 {
             }
             System.out.println();
         }
+    }
+
+    public static boolean ifSuit(boolean lable[][]){
+        boolean haveQ = false;
+        for (int i = 0; i < 8; i++) {
+            haveQ = false;
+            for (int j = 0; j < 8; j++) {
+                if(lable[i][j]){
+                    haveQ = lable[i][j];
+                    break;
+                }
+            }
+            if(!haveQ){
+                break;
+            }
+        }
+        return haveQ;
     }
 
     public static void main(String[] args) {
@@ -68,29 +71,12 @@ public class hw7_22 {
                     }
                 }
             }
-            boolean[] check = new boolean[8];
-            for (int i = 0; i < 8; i++) {
-                check[i] = false;
-            }
 
-            for(int i = 0;i<8;i++){
-                for(int j = 0;j<8;j++){
-                    if(!lable[i][j]){
-                        check[i] = true;
-                    }
-                }
-            }
-            boolean check_total = true;
-            for (int i = 0; i < 8; i++) {
-                if(!check[i]){
-                    check_total = false;
-                }
-            }
-            if(check_total){
+            if(ifSuit(lable)){
                 print(lable);
                 System.out.println();
             }
-            System.out.println();
+//            System.out.println();
         }
     }
 }
