@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.22不太对，留档尝试回溯算法">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.22不太对，留档写了个ifSuit尝试回溯算法">
       <change beforePath="$PROJECT_DIR$/src/hw7_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw7_22.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Java_learn/hw4_15/src/Main.java&quot;,
-    &quot;应用程序.hw7_12.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.hw7_17.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.hw7_18.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.hw7_22.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.hw7_3.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/Java_learn/hw4_15/src/Main.java",
+    "应用程序.hw7_12.executor": "Run",
+    "应用程序.hw7_17.executor": "Run",
+    "应用程序.hw7_18.executor": "Run",
+    "应用程序.hw7_22.executor": "Debug",
+    "应用程序.hw7_3.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -145,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713452499560</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="7.22不太对，留档写了个ifSuit尝试回溯算法">
+      <option name="closed" value="true" />
+      <created>1713456819722</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1713456819722</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,7 +163,8 @@
     <MESSAGE value="7.17修改，7.18完成" />
     <MESSAGE value="7.22不太对" />
     <MESSAGE value="7.22不太对，留档尝试回溯算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.22不太对，留档尝试回溯算法" />
+    <MESSAGE value="7.22不太对，留档写了个ifSuit尝试回溯算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.22不太对，留档写了个ifSuit尝试回溯算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

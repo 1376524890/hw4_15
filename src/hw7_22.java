@@ -76,7 +76,10 @@ public class hw7_22 {
                 print(lable);
                 System.out.println();
             }
-//            System.out.println();
+            else {
+
+            }
+            System.out.println();
         }
     }
 }
