@@ -42,6 +42,5 @@ public class hw7_22 {
                 System.out.println();
             }
         }
-
     }
 }
