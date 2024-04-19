@@ -47,12 +47,29 @@ public class hw7_22 {
         }
         return haveQ;
     }
-    public static void findNext(boolean[][] lable, int i_now, int j_now){
+
+    public static void copyArray(boolean[][][] attact_save, boolean[][][] lable_save, boolean[][] lable,boolean[][] attact,int[] layer){
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                attact_save[layer[0]][i][j] = attact[i][j];
+                lable_save[layer[0]][i][j]
+            }
+
+        }
+    }
+    public static void findNext(boolean[][] lable, int i_now, int j_now, boolean[][][] attact_save, boolean[][][] lable_save, int layer[]){
+        for (int i = 0; i < 8; i++) {
+
+        }
 
     }
 
     public static void main(String[] args) {
-        boolean[][] lable = new boolean[8][8];
+        boolean[][] lable = new boolean[8][8];//创建棋盘
+        boolean[][] attact = new boolean[8][8];//保存无法放置的位置
+        boolean[][][] attact_save = new boolean[8][8][8];//备份上一步attact结果
+        boolean[][][] lable_save = new boolean[8][8][8];//备份上一步lable结果
+        int[] layer = {0};
 
         if(ifSuit(lable)){
             print(lable);
