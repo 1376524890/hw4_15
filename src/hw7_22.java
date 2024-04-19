@@ -52,7 +52,7 @@ public class hw7_22 {
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
                 attact_save[layer[0]][i][j] = attact[i][j];
-                lable_save[layer[0]][i][j]
+                //lable_save[layer[0]][i][j]
             }
 
         }

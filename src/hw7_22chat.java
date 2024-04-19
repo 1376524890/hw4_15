@@ -20,7 +20,6 @@ public class hw7_22chat {
 
         private static boolean isValid(int row, int col) {
             for (int i = 0; i < row; i++) {
-                // 检查是否在同一列或者同一对角线上
                 if (queens[i] == col || Math.abs(queens[i] - col) == row - i) {
                     return false;
                 }
