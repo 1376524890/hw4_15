@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.22不太对，留档写了个ifSuit尝试回溯算法">
+    <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.22不太对，isSuit完成，重试使用递归尝试回溯算法">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hw7_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw7_22.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713456819722</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="7.22不太对，isSuit完成，重试使用递归尝试回溯算法">
+      <option name="closed" value="true" />
+      <created>1713457823900</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1713457823900</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,7 +173,8 @@
     <MESSAGE value="7.22不太对" />
     <MESSAGE value="7.22不太对，留档尝试回溯算法" />
     <MESSAGE value="7.22不太对，留档写了个ifSuit尝试回溯算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.22不太对，留档写了个ifSuit尝试回溯算法" />
+    <MESSAGE value="7.22不太对，isSuit完成，重试使用递归尝试回溯算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.22不太对，isSuit完成，重试使用递归尝试回溯算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
