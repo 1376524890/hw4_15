@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.28完成修改了一下">
-      <change afterPath="$PROJECT_DIR$/src/hw7_31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="470a6b85-6a29-4b3d-90f2-f5d561d34072" name="更改" comment="7.31完成修改了一下" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -212,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713697500262</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="7.31完成修改了一下">
+      <option name="closed" value="true" />
+      <created>1713703082369</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1713703082369</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,7 +236,8 @@
     <MESSAGE value="7.22参考chatgpt，已修改" />
     <MESSAGE value="7.28完成" />
     <MESSAGE value="7.28完成修改了一下" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.28完成修改了一下" />
+    <MESSAGE value="7.31完成修改了一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.31完成修改了一下" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -248,17 +254,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hw7_31.java</url>
-          <line>58</line>
+          <line>57</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/hw7_31.java</url>
-          <line>3</line>
-          <properties class="hw7_31" method="addToResult">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
