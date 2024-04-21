@@ -11,9 +11,7 @@ public class hw7_28 {
         if(lastID < 9){
             lastID++;
             System.out.println(allNumber[firstID]+" "+allNumber[lastID]);
-            if (lastID < 9){
-                printNext(lastID,firstID);
-            }
+            printNext(lastID,firstID);
         }
     }
 
